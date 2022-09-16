@@ -13,7 +13,10 @@
 ## 1. Instalar paquetes
 Ya con el entorno virtual funcionando, vamos a ejecutar los siguientes comandos.
 ```python
-pipenv install flask Flask-JWT flask-sqlalchemy sqlalchemy flask-migrate psycopg2-binary python-dotenv flask-cors gunicorn cloudinary flask-admin flask_swagger
+pipenv install flask flask_restful flask_sqlalchemy flask_migrate flask_marshmallow marshmallow-sqlalchemy
 ```
-Añadimos una variable de entorno
-`export FLASK_APP=mySuperapp/wsgi.py `
+## 2. Creamos la estructura de carpetas
+
+## 3. Añadir archivos de configuracion
+__ext.py__ donde irán todoas nuestras extensiones.
+__db.py__ donde inicialimazos nuestra db y creamos una clase con métodos de utilidad para los modelos.
